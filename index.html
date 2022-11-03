@@ -1,0 +1,38 @@
+<html>
+<head>
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      padding: 10px 0;
+    }
+    .showbutton {
+      visibility: visible;
+    }
+    .game-wrapper {
+      border-color: aqua;
+      border-width: 3px;
+    }
+  </style>
+  <div class="game-wrapper">
+  <p style="color: white; font-family: sans-serif; font-size: 24px; margin-bottom: 6px; text-align: center;">
+    <span>Score: </span><span id="scoreEl">0</span>
+  </p>
+  <canvas style="display: flex; margin-left: auto; margin-right: auto;">
+
+  </canvas>
+  <p style="color: white; font-family: sans-serif; font-size: 14px; margin-bottom: 6px; text-align: center;">
+    <span id="hud"></span>
+  </p>
+  <button id="newgame" type="button" style="display: flex; margin-left: auto; margin-right: auto; visibility: hidden;" onClick= "window.location.reload();">New Game</button>
+  <p style="color: yellow; font-size: 25px; text-align: center;">Made based on "Pacman Game Tutorial with JavaScript and HTML5 Canvas" by <a href="https://www.youtube.com/c/ChrisCourses">Chris Courses</a> on <a href="https://www.youtube.com/watch?v=5IMXpp3rohQ">YouTube.com</a></p>
+  <p style="color: white; font-family: sans-serif; font-size: 16px; margin-bottom: 6px; text-align: center;">
+    Made by NeverEvi (Kane Cramer) 
+  </p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
